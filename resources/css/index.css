@@ -1,0 +1,224 @@
+.right-buttons li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-box a{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #4e4e4e;    
+    transition: 0.2s;
+}
+
+.nav-box a:hover{
+    color: rgb(223, 189, 0);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+}
+
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    padding-top: 32px;
+    background-color: #f0f0f0;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 48px;
+}
+
+#start-button{
+    padding: 20px;
+    margin: 32px;
+}
+
+.banner-content h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+.banner-content .btn-lg{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+}
+
+#colmar, #academy{
+    padding: 5px;
+    padding-left: 0px;
+}
+
+#academy{
+    color: #b4b4b4;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.start-learning{
+    background-color: #eeeeee;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+.start-learning a{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    align-content: center;
+}
+
+.media, .software, .computer-art, .data, .design, .business, .marketing{
+    padding: 24px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.software:hover, .computer-art:hover, .data:hover, .design:hover, .business:hover, .marketing:hover{
+    background-color: #dba101;
+    color: #fdfdfd;
+}
+
+.media h1{
+    padding-top: 32px;
+}
+
+
+.Banner-Media-Box{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dextop-info-flex{
+    display: flex;
+    justify-content:flex-start;
+    padding: 32px;
+}
+
+.primary-info{
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 32px;
+}
+
+.primary-info h2{
+    font-family: 'Lato',sans-serif;
+    font-size: 40px;
+}
+
+.img-container{
+    overflow: hidden;
+    padding-bottom: 24px;
+}
+
+.info-sect-2 aside,h3,a,p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato',sans-serif;
+}
+
+.info-sect-2 p{
+  font-size: 20px;
+  color: #5e5e5e;
+}
+
+.fig-info,img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 24px;
+    transition: 0.2s;
+}
+
+.fig-info h3{
+    font-size: 32px;
+}
+
+.fig-info:hover{
+    background-color: #dba101;
+    color: #fdfdfd;
+}
+
+.fig-info a{
+    text-decoration: none;
+}
+
+.video-container video{
+    width: 100%;
+    height: auto;
+}
+
+.thesis-info{
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 32px;
+    width: 60%;
+}
+
+.thesis-info h2{
+    font-family: 'Lato',sans-serif;
+    font-size: 40px;
+
+}
+
+.video-container{
+    overflow: hidden;
+    padding-bottom: 24px;
+}
+
+.thesis-info-flex{
+    display: flex;
+    justify-content:flex-start;
+    padding: 32px;
+}
+
+.thesis-info .information p{
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5e5e5e;
+}
+
+.thesis-info .information blockquote p{
+    padding-top: 16px;
+}
